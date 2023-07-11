@@ -16,3 +16,24 @@ set_target_properties(backend2023_d PROPERTIES
         CXX_STANDARD 20
         CXX_STANDARD_REQUIRED ON
         )
+
+add_executable(divisionA_a1 yandex30/divisionA/a1.cpp )
+set_target_properties(divisionA_a1 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a2  yandex30/divisionA/a2.cpp)
+set_target_properties(divisionA_a2 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a3  yandex30/divisionA/a3.cpp)
+set_target_properties(divisionA_a3 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a4  yandex30/divisionA/a4.cpp)
+set_target_properties(divisionA_a4 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
