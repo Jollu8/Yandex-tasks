@@ -1,3 +1,5 @@
+
+![Yandex Contest](https://avatars.mds.yandex.net/get-lpc/1368426/25a47e93-3848-4e9d-a621-92c2ca21cc48/orig)
 # [Тренировки по алгоритмам 3.0 от Яндекса — Дивизион А](https://contest.yandex.ru/contest/45469/enter/?retPage=)
 
 - [x] [1. Гистограмма](https://contest.yandex.ru/contest/45469/problems/1/)
@@ -10,3 +12,7 @@
 - [x] [8. Минимальный прямоугольник](https://contest.yandex.ru/contest/45469/problems/8/)
 - [x] [9. Сумма в прямоугольнике](https://contest.yandex.ru/contest/45469/problems/9/)
 - [x] [10. Скучная лекция](https://contest.yandex.ru/contest/45469/problems/10/)
+- [ ] [11. Конвейер](https://contest.yandex.ru/contest/45469/problems/11/)
+- [x] [12. Значение арифметического выражения](https://contest.yandex.ru/contest/45469/problems/12/)
+- [x] [13. Значение логического выражения](https://contest.yandex.ru/contest/45469/problems/13/)
+- [x] [14. Гистограмма и прямоугольник](https://contest.yandex.ru/contest/45469/problems/13/)

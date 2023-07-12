@@ -67,3 +67,18 @@ set_target_properties(divisionA_a10 PROPERTIES
         CXX_STANDARD 20
         CXX_STANDARD_REQUIRED ON
         )
+add_executable(divisionA_a11  yandex30/divisionA/a11.cpp)
+set_target_properties(divisionA_a11 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a12  yandex30/divisionA/a12.cpp yandex30/divisionA/exprtk.hpp)
+set_target_properties(divisionA_a12 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a14  yandex30/divisionA/a14.cpp )
+set_target_properties(divisionA_a14 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
