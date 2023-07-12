@@ -15,4 +15,5 @@
 - [ ] [11. Конвейер](https://contest.yandex.ru/contest/45469/problems/11/)
 - [x] [12. Значение арифметического выражения](https://contest.yandex.ru/contest/45469/problems/12/)
 - [x] [13. Значение логического выражения](https://contest.yandex.ru/contest/45469/problems/13/)
-- [x] [14. Гистограмма и прямоугольник](https://contest.yandex.ru/contest/45469/problems/13/)
+- [x] [14. Гистограмма и прямоугольник](https://contest.yandex.ru/contest/45469/problems/14/)
+- [x] [15. Поврежденный XML](https://contest.yandex.ru/contest/45469/problems/15/)

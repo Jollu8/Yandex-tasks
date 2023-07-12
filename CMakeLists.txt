@@ -82,3 +82,8 @@ set_target_properties(divisionA_a14 PROPERTIES
         CXX_STANDARD 20
         CXX_STANDARD_REQUIRED ON
         )
+add_executable(divisionA_a15  yandex30/divisionA/a15.cpp )
+set_target_properties(divisionA_a15 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
