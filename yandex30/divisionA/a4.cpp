@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
+
+
+
 int main() {
+
     int n, k, x, y;
     cin >> n >> k >> x >> y;
     int var = (x - 1) * 2 + y;
