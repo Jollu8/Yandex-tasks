@@ -20,3 +20,10 @@
 - [x] [16. Минимум на отрезке](https://contest.yandex.ru/contest/45469/problems/16/)
 - [x] [17. Гоблины и шаманы](https://contest.yandex.ru/contest/45469/problems/17/)
 - [x] [18. Тупики](https://contest.yandex.ru/contest/45469/problems/18/)
+- [x] [19. Коммерческий калькулятор](https://contest.yandex.ru/contest/45469/problems/19/)
+- [x] [20. Машинки](https://contest.yandex.ru/contest/45469/problems/20/)
+- [x] [21. Разложение в сумму кубов](https://contest.yandex.ru/contest/45469/problems/21/)
+- [x] [22. НВП с восстановлением ответа](https://contest.yandex.ru/contest/45469/problems/22/)
+- [x] [23. Количество треугольников](https://contest.yandex.ru/contest/45469/problems/23/)
+- [x] [24. Буратино](https://contest.yandex.ru/contest/45469/problems/24/)
+- 
