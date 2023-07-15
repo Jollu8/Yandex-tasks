@@ -132,3 +132,33 @@ set_target_properties(divisionA_a24 PROPERTIES
         CXX_STANDARD 20
         CXX_STANDARD_REQUIRED ON
         )
+add_executable(divisionA_a25  yandex30/divisionA/a25.cpp )
+set_target_properties(divisionA_a25 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a26  yandex30/divisionA/a26.cpp )
+set_target_properties(divisionA_a26 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionB_b1  yandex30/divisionB/B1.cpp )
+set_target_properties(divisionB_b1 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a27  yandex30/divisionA/a27.cpp )
+set_target_properties(divisionA_a27 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a28  yandex30/divisionA/a28.cpp )
+set_target_properties(divisionA_a28 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(divisionA_a29  yandex30/divisionA/a29.cpp )
+set_target_properties(divisionA_a29 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )

@@ -26,4 +26,9 @@
 - [x] [22. НВП с восстановлением ответа](https://contest.yandex.ru/contest/45469/problems/22/)
 - [x] [23. Количество треугольников](https://contest.yandex.ru/contest/45469/problems/23/)
 - [x] [24. Буратино](https://contest.yandex.ru/contest/45469/problems/24/)
+- [x] [25. Увлекательная игра](https://contest.yandex.ru/contest/45469/problems/25/)
+- [x] [26. Ход конём - 2](https://contest.yandex.ru/contest/45469/problems/26/)
+- [x] [27. Расстояние по Левенштейну](https://contest.yandex.ru/contest/45469/problems/27/)
+- [x] [28. Космический мусорщик](https://contest.yandex.ru/contest/45469/problems/28/)
+- [x] [29. Движение по полосам](https://contest.yandex.ru/contest/45469/problems/29/)
 - 
