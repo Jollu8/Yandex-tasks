@@ -31,4 +31,5 @@
 - [x] [27. Расстояние по Левенштейну](https://contest.yandex.ru/contest/45469/problems/27/)
 - [x] [28. Космический мусорщик](https://contest.yandex.ru/contest/45469/problems/28/)
 - [x] [29. Движение по полосам](https://contest.yandex.ru/contest/45469/problems/29/)
+- [x] [30. Распил брусьев](https://contest.yandex.ru/contest/45469/problems/30/)
 - 
