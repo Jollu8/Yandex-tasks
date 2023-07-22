@@ -167,3 +167,13 @@ set_target_properties(divisionA_a30 PROPERTIES
         CXX_STANDARD 20
         CXX_STANDARD_REQUIRED ON
         )
+add_executable(practikum2022_sprint_1_1  practikum2022/sprint1_1.cpp )
+set_target_properties(practikum2022_sprint_1_1 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(practikum2022_sprint_1_2  practikum2022/sprint_1_2.cpp )
+set_target_properties(practikum2022_sprint_1_2 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
