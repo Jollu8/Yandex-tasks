@@ -34,15 +34,15 @@ public:
 };
 
 int main() {
-   MyQueueSized myQueueSized(1);
-   myQueueSized.push(1);
-   myQueueSized.size();
-   myQueueSized.push(3);
-   myQueueSized.size();
-   myQueueSized.push(1);
-   myQueueSized.pop();
-   myQueueSized.push(1);
-   myQueueSized.pop();
-   myQueueSized.push(3);
-   myQueueSized.push(3);
+    MyQueueSized myQueueSized(1);
+    myQueueSized.push(1);
+    myQueueSized.size();
+    myQueueSized.push(3);
+    myQueueSized.size();
+    myQueueSized.push(1);
+    myQueueSized.pop();
+    myQueueSized.push(1);
+    myQueueSized.pop();
+    myQueueSized.push(3);
+    myQueueSized.push(3);
 }

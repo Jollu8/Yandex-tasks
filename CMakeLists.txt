@@ -177,3 +177,28 @@ set_target_properties(practikum2022_sprint_1_2 PROPERTIES
         CXX_STANDARD 20
         CXX_STANDARD_REQUIRED ON
         )
+add_executable(practikum2022_sprint_1_L  practikum2022/sprint_1_L.cpp )
+set_target_properties(practikum2022_sprint_1_L PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(practikum2022_sprint_1_4  practikum2022/sprint_1_4.cpp )
+set_target_properties(practikum2022_sprint_1_4 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(practikum2022_sprint_1_5  practikum2022/sprint_1_5.cpp )
+set_target_properties(practikum2022_sprint_1_5 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(practikum2022_sprint_1_7  practikum2022/sprint_1_7.cpp )
+set_target_properties(practikum2022_sprint_1_7 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
+add_executable(practikum2022_sprint_1_8  practikum2022/sprint_1_8.cpp )
+set_target_properties(practikum2022_sprint_1_8 PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED ON
+        )
