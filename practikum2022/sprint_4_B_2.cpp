@@ -61,4 +61,3 @@ int main() {
     std::cout << myMap.get(1) << std::endl;
     myMap.delete_(2);
 }
-
