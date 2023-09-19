@@ -80,42 +80,32 @@ bool is_identical(Node *root1, Node *root2) {
     }
 }
 
+
+bool is_small(Node *root, int data) {
+    if(root->data >= data) return false;
+    if (root->left !=  nullptr)
+        return is_small(root->left, data);
+    if(root->right != nullptr)
+        return is_small(root->right, data);
+    return true;
+}
+
 int main() {
     Node *root1 = newNode(5);
-    Node *root2 = newNode(5);
-    root1->left = newNode(3);
     root1->right = newNode(8);
-    root1->left->left = newNode(2);
+    root1->left = newNode(3);
+    root1->left->left = newNode(1);
     root1->left->right = newNode(4);
-    std::cout << "Root1: ";
-    inorder(root1);
+    std::cout << "Test 1: > " << is_small(root1->left, root1->data) << std::endl;
 
-    root2->left = newNode(3);
+
+    Node *root2 = newNode(5);
     root2->right = newNode(8);
-    root2->left->left = newNode(2);
-    root2->left->right = newNode(4);
-    std::cout << "\nRoot2: ";
-    inorder(root2);
-    std::cout << "\nTest 1: -> ";
-    std::cout << std::boolalpha << is_identical(root1, root2) << std::endl;
+    root2->left = newNode(3);
+    root2->left->left = newNode(1);
+    root2->left->right = newNode(5);
+    std::cout << "Test 2: > " << std::boolalpha << is_small(root2->left, root1->data);
 
-    Node *root3 = newNode(5);
-    Node *root4 = newNode(6);
-    root3->left = newNode(3);
-    root3->right = newNode(8);
-    root3->left->left = newNode(2);
-    root3->left->right = newNode(4);
-    std::cout << "\n\nRoot3: ";
-    inorder(root3);
-
-    root4->left = newNode(3);
-    root4->right = newNode(8);
-    root4->left->left = newNode(2);
-    root4->left->right = newNode(4);
-    std::cout << "\nRoot4: ";
-    inorder(root4);
-    std::cout << "\nTest 2: -> ";
-    std::cout << std::boolalpha << is_identical(root3, root4) << std::endl;
 
 
 

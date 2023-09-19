@@ -1,6 +1,3 @@
-
-
-
 #include <iostream>
 #include <queue>
 #include <unordered_map>
@@ -69,7 +66,7 @@ void inorder(Node *root) {
 }
 
 bool is_identical(Node *root1, Node *root2) {
-    if (root1 == nullptr && root2 == nullptr) return true;
+    if (root1 == nullptr && root2 == nullptr) return 1;
     else if (root1 == nullptr || root2 == nullptr) return false;
     else {
         if (root1->data == root2->data && is_identical(root1->left, root2->left)
@@ -81,44 +78,45 @@ bool is_identical(Node *root1, Node *root2) {
 }
 
 
+bool search_small(struct Node* root, int key)
+{
+    // Base Cases: root is null or key is present at root
+    if (root == nullptr)return true;
+    if(root->data >= key) return false;
 
+    if (root->data < key)
+        return search_small(root->right, key);
+    if (root->data > key)
+        return search_small(root->left, key);
+    return search_small(root->left, key);
+}
+
+int max_depth(Node* node) {
+    if(node == nullptr) return 0;
+    else {
+        int lDepth = max_depth(node->left);
+        int rDepth = max_depth(node->right);
+        if(lDepth > rDepth)return (lDepth + 1);
+        else return (rDepth + 1);
+    }
+}
 
 int main() {
     Node *root1 = newNode(5);
+    root1->right = newNode(6);
+    root1->left = newNode(99);
+    root1->left->left = newNode(1);
+    root1->left->right = newNode(3);
+    std::cout << "Test 1: > " << std::boolalpha <<  max_depth(root1) << std::endl;
+
+
     Node *root2 = newNode(5);
-    root1->left = newNode(3);
-    root1->right = newNode(8);
-    root1->left->left = newNode(2);
-    root1->left->right = newNode(4);
-    std::cout << "Root1: ";
-    inorder(root1);
-
-    root2->left = newNode(3);
     root2->right = newNode(8);
-    root2->left->left = newNode(2);
-    root2->left->right = newNode(4);
-    std::cout << "\nRoot2: ";
-    inorder(root2);
-    std::cout << "\nTest 1: -> ";
-    std::cout << std::boolalpha << is_identical(root1, root2) << std::endl;
+    root2->left = newNode(3);
+    root2->left->left = newNode(1);
+    root2->left->right = newNode(5);
+    std::cout << "Test 2: > " << std::boolalpha << max_depth(root2);
 
-    Node *root3 = newNode(5);
-    Node *root4 = newNode(6);
-    root3->left = newNode(3);
-    root3->right = newNode(8);
-    root3->left->left = newNode(2);
-    root3->left->right = newNode(4);
-    std::cout << "\n\nRoot3: ";
-    inorder(root3);
-
-    root4->left = newNode(3);
-    root4->right = newNode(8);
-    root4->left->left = newNode(2);
-    root4->left->right = newNode(4);
-    std::cout << "\nRoot4: ";
-    inorder(root4);
-    std::cout << "\nTest 2: -> ";
-    std::cout << std::boolalpha << is_identical(root3, root4) << std::endl;
 
 
 
